@@ -72,7 +72,6 @@ div {
     background-color: #000;
     position: fixed;
     width: 100%;
-    border-bottom: 1px solid #DDD;
     z-index: 9999;
 }
 .top-navigation > .content {
@@ -110,6 +109,7 @@ div {
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
+    border-bottom: 3px solid #f15b2a;
     height: 45.938rem;
     overflow: auto;
 }
@@ -126,6 +126,7 @@ div {
 .introduction h3 {
     margin-top: 1.25rem;
     font-size: 1.563rem;
+    font-size: 1.56rem;
 }
 /**
  * The buttons
@@ -154,6 +155,7 @@ div {
 }
 .cases .content {
     margin-top: 7.875rem;
+    margin-top: 2.875rem;
     padding: none;
     color: #1d1e21;
     text-align: center;
@@ -170,6 +172,7 @@ div {
 .cases .devices h3 {
     font-weight: 400;
     font-size: 1.563rem;
+    font-size: 1.0rem;
     margin: 2.5rem 0px 1.875rem;
 }
 .cases .devices p {
@@ -177,11 +180,13 @@ div {
     font-size: 1.313rem;
 }
 
+
 /**
  * Footer
  */
 .social {
     background-color: #fff;
+    background-color: #000;
     overflow: auto;
     padding-bottom: 9.375rem;
     text-align: center;
@@ -206,17 +211,21 @@ div {
 }
 .social .twitter {
     color: #55acee;
+    color: #888;
 }
 .social .facebook {
     color: #4c66a4;
+    color: #888;
 }
 .social .instagram {
     color: #3f729b;
+    color: #888;
 }
 .social .copy {
     font-size: 0.9rem;
     font-weight: 300;
     color: #838994;
+    color: #999;
 }
 
 /**
